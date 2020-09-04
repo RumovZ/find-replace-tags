@@ -25,7 +25,7 @@ With tags you can browse your collection, create custom studies and keep track o
 RegEx are a powerful tool in analysing and manipulating text-based data. If you have never heard of them before, you might want to check out one of the many excellent resources on the internet to learn about them. But while every decent word processor supports their usage, the syntax often differs slightly. You can find a Python-specific introduction [here](https://docs.python.org/3/howto/regex.html#regex-howto) (note, though, that it covers far more than you need to know to make use of this add-on).
 
 ### Support
-I appreciate bug reports and feedback on [Github](https://github.com/RumovZ/find-replace-tags) or the [Anki forum](...). Feel free to ask for help there as well.
+I appreciate bug reports and feedback on [Github](https://github.com/RumovZ/find-replace-tags) or the [Anki forum](https://forums.ankiweb.net/t/official-add-on-thread-find-and-replace-tags-using-regular-expressions/3038). Feel free to ask for help there as well.
 
 ### License
 *Copyright © 2020  RumovZ*  
