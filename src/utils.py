@@ -21,5 +21,5 @@ from aqt.utils import openLink
 
 
 def on_help():
-    url = "https://docs.python.org/3/howto/regex.html#regex-howto"
+    url = "https://github.com/RumovZ/find-replace-tags/"
     openLink(url)
