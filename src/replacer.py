@@ -129,6 +129,7 @@ class Replacer:
         self.b.search()
         self.b.mw.requireReset()
         self.b.model.endReset()
+        self.b.mw.reset()
         t1 = " was" if self.n_replacements == 1 else "s were"
         t2 = "" if self.n_tags_changed == 1 else "s"
         t3 = "" if self.n_notes_changed == 1 else "s"
