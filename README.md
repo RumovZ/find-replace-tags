@@ -1,5 +1,6 @@
 # find-replace-tags
-Find and Replace Tags in Anki using Regular Expressions.
+Find and Replace Tags in Anki using Regular Expressions.  
+_This add-on supports Anki 2.1.28 to 2.1.44. Starting with version 2.1.45, RegEx replacing for tags is possible with vanilla Anki._
 
 ### Features
   * Full RegEx support (including backreferencing)
@@ -13,9 +14,6 @@ You can download the add-on via [Ankiweb](https://ankiweb.net/shared/info/172543
 
 ### Usage
 In the browser, select the notes whose tags you want to edit. Then, choose “Find and Replace Tags (RegEx)” in the “Notes“ menu or use the shortcut Ctrl+Alt+Shift+R to open the Find and Replace dialog. Here you can type in the search and replacement patterns, toggle case sensitivity and enter arbitrary tags to preview how they would be changed. You will be able to confirm the Dialog only while both RegEx fields contain compilable patterns. When editing has completed, a brief summary is shown and you have the option to clear unused tags to reflect the changes in the browser's tag list.
-
-### One Caveat
-Since Anki's Rust backend doesn't support backreferencing (and RegEx replacing is quite pointless without it) this add-on loops over every single tag making it slower than what you might expect. As a benchmark, editing 1.000.000 tags took me about a minute, so it probably won't matter in most use cases.
 
 ### About Tags
 Tags are Anki's straightforward way to organise notes independently of the deck structure. When editing them you should be aware that they are space-seperated and case-insensitive. So “foo bar” is a list of two tags and “Foo” is the same tag as “foo”.
